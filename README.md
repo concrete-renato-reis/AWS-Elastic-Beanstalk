@@ -1,4 +1,4 @@
-# Como criar um ambiente no AWS Elastic Beanstalk via API
+# Como criar um simples ambiente no AWS Elastic Beanstalk via API
 
 ## **Requesitos:**
 
