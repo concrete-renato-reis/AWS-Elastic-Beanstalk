@@ -1,13 +1,13 @@
 # Como criar um ambiente no AWS Elastic Beanstalk via API
 
-**Requesitos:**
+## **Requesitos:**
 
 - *AWS CLI* 
 - *EB CLI*  
 - *Access key e Security Key*
 - *boto 3*
 
-**Passos:**
+### **Passos:**
 
 *Passo 1*
 
@@ -48,3 +48,38 @@ A saida do comando acima deve ser um JSON semelhante ao conteudo abaixo, exemplo
                         "Tenancy": "default"},
                 }
 ```
+
+Passo 3 
+
+_Neste passo vamos criar o nosso ambiente, para isso precisamos informar alguns parâmetros inicias como, região, nome da  aplicacao, plataforma e etc..._
+
+```bash
+eb init 
+```
+> Por padrão,  ao executar o comando sem nenhum parâmetro o  EB CLI solicita que você insira um valor para cada configuração, mas voce pode passar os parametros manualmente, conforme abaixo:
+
+```bash
+eb init nome_da_aplicacao --region us-east-1 -p "IIS 7.5"
+```
+> No exemplo acima, estamos passando o nome da aplicado, região e plataforma.
+
+_apos as conficuracoes acima um arquivo **.elasticbeanstalk/config.yml** sera criado em seu diretorio local,onde constam tais configuracoes._ 
+
+Passo 4
+
+Criando ambiente e implantando o aplicativo.
+
+```bash
+eb create meu_aplicativo
+```
+
+
+
+
+
+
+
+
+
+
+
