@@ -45,6 +45,6 @@ A saida do comando acima deve ser um JSON semelhante ao conteudo abaixo, exemplo
                     "Placement": {
                         "AvailabilityZone": "us-east-1a",
                         "GroupName": "",
-                        "Tenancy": "default"
-                    },
+                        "Tenancy": "default"},
+                }
 ```
