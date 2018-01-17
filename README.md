@@ -70,7 +70,7 @@ Passo 4
 Criando ambiente e implantando o aplicativo.
 
 ```bash
-eb create meu_aplicativo
+eb create meu-aplicativo
 ```
 
 
