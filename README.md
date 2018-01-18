@@ -79,9 +79,11 @@ eb create meu-aplicativo
 eb create  --branch_default meu-aplicativo --cname meu-aplicativo-dev --elb-type network --region us-east-1 -p "IIS 7.5" --vpc.id vpc-1a670662 --vpc.ec2subnets subnet-44954c6b
 ```
 
-> No exemplo acima, estou definindo o tipo de load balancer **_--elb-type network_**, região, plataforma vpc e subnet.
+> No exemplo acima, estou definindo o tipo de load balancer **_--elb-type network_**, opcao no momento disponivel somenente via API.
 
+Print da aplicacao criada.
 
+![meu_app](/print_meu_app.png)
 
 
 
