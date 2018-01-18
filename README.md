@@ -76,7 +76,7 @@ eb create meu-aplicativo
 > Da mesma forma do comando **eb init**, podemos passar os parametros nescessarios para criar a aplicacao.
 
 ```bash
-eb create meu-aplicativo  --branch_default meu-aplicativo --cname meu-aplicativo-dev --elb-type network --region us-east-1 -p "IIS 7.5" --vpc.id vpc-1a670662 --vpc.ec2subnets subnet-44954c6b
+eb create  --branch_default meu-aplicativo --cname meu-aplicativo-dev --elb-type network --region us-east-1 -p "IIS 7.5" --vpc.id vpc-1a670662 --vpc.ec2subnets subnet-44954c6b
 ```
 
 > No exemplo acima, estou definindo o tipo de load balancer **_--elb-type network_**, região, plataforma vpc e subnet.
