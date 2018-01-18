@@ -51,7 +51,7 @@ A saida do comando acima deve ser um JSON semelhante ao conteudo abaixo, exemplo
 
 Passo 3 
 
-_Neste passo vamos criar o nosso ambiente, para isso precisamos informar alguns parâmetros inicias como, região, nome da  aplicacao, plataforma e etc..._
+_Neste passo vamos definir o nosso ambiente, para isso precisamos informar alguns parâmetros inicias como, região, nome da  aplicacao, plataforma e etc..._
 
 ```bash
 eb init 
