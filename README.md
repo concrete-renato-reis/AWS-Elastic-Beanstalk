@@ -1,4 +1,4 @@
-# Como criar um simples ambiente no AWS Elastic Beanstalk via API
+# Criando um ambiente no AWS Elastic Beanstalk do tipo Network Load Balancer via API
 
 ## **Requesitos:**
 
@@ -85,7 +85,7 @@ eb create meu-aplicativo
 eb create  --branch_default meu-aplicativo --cname meu-aplicativo-dev --elb-type network --region us-east-1 -p "IIS 7.5" --vpc.id vpc-1a670662 --vpc.ec2subnets subnet-44954c6b
 ```
 
-> No exemplo acima, estou definindo o tipo de load balancer **_--elb-type network_**, opcao no momento disponivel somenente via API.
+> No exemplo acima, estou definindo o tipo de load balancer **_--elb-type network_**, opcao no momento disponivel somente via API.
 
 Print da aplicacao criada.
 
