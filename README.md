@@ -9,6 +9,12 @@
 
 ### **Passos:**
 
+ - Passo 1 - Instalacao das ferramentas
+ - Passo 2 - Verificando integracao com a API AWS
+ - Passo 3 - Definindo ambiente  
+ - Passo 4 - Criando ambiente e implantando a aplicacao 
+
+
 *Passo 1*
 
 1 - Instalacao do AWS CLI [Clique Aqui](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/installing.html)
@@ -49,7 +55,7 @@ A saida do comando acima deve ser um JSON semelhante ao conteudo abaixo, exemplo
                 }
 ```
 
-Passo 3 
+*Passo 3* 
 
 _Neste passo vamos definir o nosso ambiente, para isso precisamos informar alguns parâmetros inicias como, região, nome da  aplicacao, plataforma e etc..._
 
@@ -65,7 +71,7 @@ eb init nome_da_aplicacao --region us-east-1 -p "IIS 7.5"
 
 _apos as conficuracoes acima um arquivo **.elasticbeanstalk/config.yml** sera criado em seu diretorio local,onde constam tais configuracoes._ 
 
-Passo 4
+*Passo 4*
 
 Criando ambiente e implantando o aplicativo.
 
